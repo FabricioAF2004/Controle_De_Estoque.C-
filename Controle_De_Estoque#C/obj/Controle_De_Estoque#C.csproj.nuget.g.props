@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\ACER\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.11.1</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\ACER\.nuget\packages\" />
+    <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgWalter Condition=" '$(PkgWalter)' == '' ">C:\Users\ACER\.nuget\packages\walter\2024.11.6.1222</PkgWalter>
+    <PkgWalter_Cypher Condition=" '$(PkgWalter_Cypher)' == '' ">C:\Users\ACER\.nuget\packages\walter.cypher\2024.11.14.1710</PkgWalter_Cypher>
+    <PkgWalter_BOM Condition=" '$(PkgWalter_BOM)' == '' ">C:\Users\ACER\.nuget\packages\walter.bom\2024.11.15.421</PkgWalter_BOM>
+    <PkgWalter_IO Condition=" '$(PkgWalter_IO)' == '' ">C:\Users\ACER\.nuget\packages\walter.io\2024.11.15.421</PkgWalter_IO>
+  </PropertyGroup>
+</Project>
